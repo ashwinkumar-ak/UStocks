@@ -1,0 +1,192 @@
+/* if the viewport is equal to 850px or less than that */ 
+@media only screen and (max-width: 850px){
+    html {
+        font-size: 50%;
+        
+    }
+    .header_area 
+        {
+            margin: 0%;
+            width: 118rem;
+            font-size: 3rem;
+        }
+
+    .navbar-toggler
+        {
+            font-size: 3rem;
+        }
+    
+    .welcome 
+        {
+            margin: 0%;
+            font-size: 6rem;
+        }
+    
+    .about
+        {
+            margin: 0%;
+            font-size: 5rem;
+        }
+    
+    .vision
+        {
+            margin: 0%;
+            font-size: 2rem;
+        }
+    
+    .headingforad
+        {
+            margin: 0%;
+            font-size: 3rem;
+        } 
+        
+    .text-center 
+        {
+            font-size: 1rem;
+        }
+        
+    .col-6
+        {
+            font-size: 2rem;
+        }
+    
+    .heading
+        {
+            margin: 0%;
+            font-size: 6rem;
+        }
+
+    #company-cards 
+        {
+            margin: 0%;
+            font-size: 2.5rem;
+            width: 95rem;
+        }
+    
+    #companyname 
+        {
+            font-size: 5rem;
+        }
+
+    .btn-light 
+        {
+            font-size: 2rem;
+        }
+
+    .investingimg
+        {
+            width: 30rem;
+            height: 20rem;
+        }
+
+    .investstockimg
+        {
+            width: 90rem;
+            height: 20rem;
+        }
+
+    .thirdpgdiv 
+        {
+            font-size: 2rem;
+        }
+
+    .table-light
+        {
+            font-size: 2rem;
+        }
+
+    #panelcard
+        {
+            font-size: 2rem;
+        }
+
+    .card-header 
+        {
+            font-size: 3rem;
+        }
+
+    #panelcardtitle 
+        {
+            font-size: 2.5rem;
+        }
+        
+    .btn-outline-dark
+        {
+            font-size: 2rem;
+        }  
+        
+    #adcards 
+        {
+            margin: 0%;
+            font-size: 2.5rem;
+            width: 95rem;
+        }
+
+    #ct 
+        {
+            font-size: 5rem;
+        }
+
+    .btn-dark 
+        {
+            font-size: 2rem;
+        }
+
+    #page_heading
+        {
+            font-size: 8rem;
+            margin-left: 12rem;
+        }
+
+    .pagination
+        {
+            font-size: 2rem;
+        }
+
+    .text-uppercase
+        {
+            font-size: 2rem;
+        }
+
+    .para 
+        {
+            font-size: 2rem;
+        }
+
+    }
+
+
+@media only screen and (max-width: 360px){
+
+    html 
+        {
+            font-size: 30%;
+        }
+
+    .header_area
+        {
+            width: 130rem;
+        }
+
+    #panelcard
+        {
+            font-size: 2rem;
+            width: 300rem;
+        }
+
+    .card-header 
+        {
+            font-size: 2rem;
+        }
+
+    #panelcardtitle 
+        {
+            font-size: 1rem;
+        }
+        
+    .btn-outline-dark
+        {
+            font-size: 2rem;
+        }  
+
+}

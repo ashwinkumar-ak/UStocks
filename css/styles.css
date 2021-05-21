@@ -1,0 +1,525 @@
+/* css for body starts*/
+.bk {
+    font-family: ariel;
+    background-image: url("../img/background.png");
+  }
+
+.ak {
+    font-family: ariel;
+    background-image: url("../img/background.png");
+  }
+.ad{
+    font-family: Microsoft Phagspa;
+    background-image: url("../img/background.png");
+  }
+  .pg {
+    font-family: ariel;
+    background-image: url("../img/background.png");
+    color:floralwhite;
+  }
+/* css for body ends*/
+
+
+/* css for navigation bar starts*/
+#exampleModalLabel{
+    color:black;
+}
+
+input {
+    border: 2px solid green;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+.fas {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    transition: transform ease-in-out 0.3s;
+}
+
+.fas:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 7px rgb(77, 80, 77);
+    border: solid 1px white;
+    border-radius: 25%;
+}
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    z-index: 999;
+    transition: background 1s ease;
+}
+
+.nav-link {
+    transition: transform ease-in-out 0.3s;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    text-shadow: 4px 4px 7px rgb(77, 80, 77);
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.navbar {
+    background: #3bb439;
+}
+/* css for navigation bar ends*/
+
+/* Organization Section Starts*/
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.welcome{
+    text-align: center;
+    
+    font-size: 70px;
+    font-weight: bold;
+    font-family: ariel;
+    bleed: italics;
+    background: linear-gradient(to right, rgb(104, 247, 91) 20%, #7af07d 30%, #a6df65 70%, rgb(18, 206, 34) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textGlow 7s ease-in-out infinite;
+}
+.about{
+    color:rgb(67, 211, 67);
+    text-align: center;
+}
+.vision{
+    font-weight: bold;
+    text-align: center;
+    color: floralwhite;
+}
+.card-body:hover{
+    box-shadow: 0px 5px 20px rgb(48, 248, 8);
+}
+#mainpg:hover{
+    box-shadow: 0px 5px 20px rgb(48, 248, 8);
+}
+#col-hover{
+    box-shadow: 0px 5px 20px rgb(48, 248, 8);
+}
+.heading{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: ariel;
+    bleed: italics;
+    background: linear-gradient(to right, rgb(104, 247, 91) 20%, #7af07d 30%, #a6df65 70%, rgb(18, 206, 34) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textGlow 7s ease-in-out infinite;
+}
+
+    @keyframes textGlow {
+        to {
+            background-position: 200%;
+        }
+    }  
+
+
+.col-6{
+    color:floralwhite;
+}
+    
+#company-cards {
+    background: #22222a;
+    color: floralwhite;
+    font-size: 20px;
+}
+
+.card-img-bottom{
+    height: 400px;
+}
+
+#companyname {
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+        from {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #045f0c, 0 0 30px #045f0c, 0 0 40px #045f0c, 0 0 50px #045f0c, 0 0 60px #045f0c;
+        }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #47f188, 0 0 30px #47f188, 0 0 40px #47f188, 0 0 50px #47f188, 0 0 60px #47f188, 0 0 70px #47f188;
+    }
+  }
+  
+.points {
+    color:black;
+}
+#contentsix{
+    text-align:center;
+}
+.card-title {
+    text-align: center;
+    color:floralwhite;
+}
+.headingforad{ 
+    color:rgb(27, 161, 27);
+}
+.headingforad:hover{
+    text-shadow: 0px 5px 20px rgb(48, 248, 8);
+}
+.data{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: ariel;
+    bleed: italics;
+    background: linear-gradient(to right, rgb(104, 247, 91) 20%, #7af07d 30%, #a6df65 70%, rgb(18, 206, 34) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textGlow 7s ease-in-out infinite;
+}
+#company-cards:hover {
+    box-shadow:0px 5px 20px rgb(48, 248, 8);
+}
+
+.card-body-six{
+    text-align: center;
+}
+
+#adcards{
+    background:#606068;
+    color: floralwhite;
+}
+
+#adcards:hover{
+    box-shadow:0px 5px 20px rgb(48, 248, 8);
+}
+
+#ct{
+    color:rgb(201, 224, 197);
+    text-shadow: 0px 5px 20px rgb(22, 100, 7);
+}
+
+.card-text-one{
+    display:none;
+}
+
+.card-text-two{
+    display:none;
+}
+
+.card-text-three{
+    display:none;
+}
+
+.card-text-four{
+    display:none;
+}
+
+.card-text-five{
+    display:none;
+}
+
+.card-text-six{
+    display:none;
+}
+
+#pagi {
+    margin-left: 38%;
+}
+/* Organization Section Ends*/
+#analysis-cards{
+    background: #22222a;
+    color: floralwhite;
+    font-size: 20px;
+}
+#analysis-cards:hover{
+    box-shadow:0px 5px 20px rgb(48, 248, 8);
+}
+.card-img-top{
+    height:400px;
+}
+/*Table area starts*/
+.tbcontent{
+    font-size:25px ;
+}
+.ptmerits {
+    width:50% ;
+}
+/*Table area ends*/
+/* css for image starts*/
+#logo {
+    transition: transform ease-in-out 0.3s;
+  }
+
+#logo:hover {
+    transform: scale(1.2);
+  }
+.investingimg{
+    float:right;
+
+}
+#image:hover{
+    box-shadow:0px 5px 15px 0px grey;
+    
+}
+.company_logos{
+    height:100px;
+    width:270px;
+  
+    margin-left: 38%;
+    
+}
+#image{
+    margin:4px;
+}
+/* css for image ends*/
+
+/*index5 css starts*/
+.pg5head {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: ariel;
+    bleed: italics;
+    background: linear-gradient(to right, rgb(104, 247, 91) 20%, #7af07d 30%, #a6df65 70%, rgb(18, 206, 34) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: glowText 7s ease-in-out infinite;
+}
+
+    @keyframes glowText {
+        to {
+            background-position: 200%;
+        }   
+    }     
+
+#panelcard {
+    background: white;
+    color: black;
+}
+
+#panelcard:hover {
+    box-shadow: 0px 5px 20px rgb(48, 248, 8);
+}
+
+#panelcardtitle {
+    color: grey;
+}
+
+#panelreliance, #flipreliance {
+    padding: 5px;
+    text-align: center;
+    background-color: #22222a;
+    border: solid 3px rgb(40, 138, 20);
+    color: floralwhite
+}
+
+#flipreliance {
+    font-size: 30px;
+}
+  
+#panelreliance {
+    padding: 50px;
+    display: none;
+    color: floralwhite;
+}
+
+#panelasian, #flipasian {
+    padding: 5px;
+    text-align: center;
+    background-color: #22222a;
+    border: solid 3px rgb(40, 138, 20);
+    color: floralwhite
+  }
+
+#flipasian {
+    font-size: 30px;
+}
+  
+#panelasian {
+    padding: 50px;
+    display: none;
+    color: floralwhite;
+}
+
+#paneltata, #fliptata {
+    padding: 5px;
+    text-align: center;
+    background-color: #22222a;
+    border: solid 3px rgb(40, 138, 20);
+    color: floralwhite
+  }
+
+#fliptata {
+    font-size: 30px;
+}
+  
+#paneltata {
+    padding: 50px;
+    display: none;
+    color: floralwhite;
+}
+
+#panelford, #flipford {
+    padding: 5px;
+    text-align: center;
+    background-color: #22222a;
+    border: solid 3px rgb(40, 138, 20);
+    color: floralwhite
+  }
+
+#flipford {
+    font-size: 30px;
+}
+  
+#panelford {
+    padding: 50px;
+    display: none;
+    color: floralwhite;
+}  
+
+#panelccl, #flipccl {
+    padding: 5px;
+    text-align: center;
+    background-color: #22222a;
+    border: solid 3px rgb(40, 138, 20);
+    color: floralwhite
+  }
+
+#flipccl {
+    font-size: 30px;
+}
+  
+#panelccl {
+    padding: 50px;
+    display: none;
+    color: floralwhite;
+}  
+
+#panelbajaj, #flipbajaj {
+    padding: 5px;
+    text-align: center;
+    background-color: #22222a;
+    border: solid 3px rgb(40, 138, 20);
+    color: floralwhite
+  }
+
+#flipbajaj {
+    font-size: 30px;
+}
+  
+#panelbajaj {
+    padding: 50px;
+    display: none;
+    color: floralwhite;
+}  
+/* index5 css ends*/
+
+/* css for main headings starts*/
+#page_heading{
+    text-align: center;
+    font-size: 95px;
+    font-weight: bold;
+    font-family: ariel;
+    
+    bleed: italics;
+    background: linear-gradient(to right, rgb(101, 160, 52) 20%, #dbf354 30%, #cc330d 70%, rgb(64, 235, 22) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 7s ease-in-out infinite;
+}
+
+@keyframes textShine {
+    to {
+        background-position: 200%;
+    }
+}
+
+.pgetheads:hover{
+    text-shadow:1px 1px 2px rgb(117, 224, 46);
+}
+
+.mainheads:hover{
+    text-shadow:1px 1px 2px rgb(117, 224, 46);
+}
+
+.mainheads{
+    color:#3bb439;
+    font-weight: bolder;
+}
+/* css for main headings ends*/
+
+/* css for content */
+.pgetparagraphs{
+    font-size:22px;
+}
+.thirdpgdiv{
+    font-size:20px;
+}
+
+/* css for headings of points under main headings starts*/
+.hvy{
+    color:#3ee03b;
+}
+/* css for headings of points under main headings ends*/
+
+/* css for pagination starts*/
+
+.page-link {
+    color:#3bb439;
+}
+#pagi {
+    margin-left: 37%;
+}
+/* css for pagination ends*/
+
+/* Footer Area */ 
+
+footer.footer-area{
+    padding: 5rem 0;
+    color: white;
+}
+
+.trademark {
+    color: #0ffa0b;
+    text-decoration: underline;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px;
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: #3bb439;
+}
+
+footer.footer-area .social a:hover > i{
+    color: #0ffa0b;
+}
+
+
+/* End Footer */
+
+
+
