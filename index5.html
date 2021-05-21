@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-1">
+        <title>UStocks</title>
+        
+       
+       
+        <!--Font awesome CSS file-->
+        <link rel="stylesheet" href="./css/all.min.css">
+        
+        <!--Bootstrap CSS file-->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        
+        <!--Custom CSS file-->
+        <link rel="stylesheet" href="./css/styles.css">
+
+        <!--Responsive css file-->
+        <link rel="stylesheet" href="./css/responsive.css">
+
+   
+    </head>
+    
+    <!--================================Body Starts======================================-->
+    <body class="ak">
+
+      <!--==============================Navigation Bar Starts===================================-->
+    <header class="header_area">
+      <div class="main-menu">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3bb439;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img id="logo" src="./img/logo.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="me-auto"></div>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./index2.html">COMPANIES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./index3.html">INVESTMENTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./index4.html">PROS & CONS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./index5.html">STATISTICS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./index6.html">GRAPHS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./index7.html">ANALYSIS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./index8.html">OVERVIEW</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="search" href="#"><i class="fas fa-search" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></a> 
+                  </li> 
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+    <br><br>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Which company's stock analysis do you want to search?</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <input type="text" name="box" placeholder="Search">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="pg5head">Statistics</h1>
+    
+    <div class="container">
+      <div class="row align-items-start" id="flipreliance">Reliance Industries Limited</div>
+      <div class="row align-items-start" id="panelreliance">
+        <div class="col" style="font-size:25px; text-align:left">Overview</div>
+        <div class="col">
+          <table class="table table-light table-hover">
+            <tbody>
+              <tr>
+                <td>Open</td>
+                <td>1937.75</td>
+                <td>||</td>
+                <td>VWAP</td>
+                <td>1940.01</td>
+                <td>||</td>
+                <td>Face Value</td>
+                <td>10</td>
+                <td>||</td>
+                <td>P/B</td>
+                <td>2.21</td>
+              </tr>
+              <tr>
+                <td>Previous Close</td>
+                <td>1931.00</td>
+                <td>||</td>
+                <td>MKT Cap(Rs.Cr)</td>
+                <td>1245031</td>
+                <td>||</td>
+                <td>TTM EPS</td>
+                <td>76.23</td>
+                <td>||</td>
+                <td>Dividend Yield</td>
+                <td>0.36</td>
+              </tr>
+              <tr>
+                <td>UC Limit</td>
+                <td>2124.10</td>
+                <td>||</td>
+                <td>20D Average Volume</td>
+                <td>8285778</td>
+                <td>||</td>
+                <td>TTM PE</td>
+                <td>25.34</td>
+                <td>||</td>
+                <td>P/C</td>
+                <td>16.45</td>
+              </tr>
+              <tr>
+                <td>LC Limit</td>
+                <td>1737.90</td>
+                <td>||</td>
+                <td>20D Average Delivery</td>
+                <td>3503505</td>
+                <td>||</td>
+                <td>Sector PE</td>
+                <td>39.11</td>
+                <td>||</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Volume</td>
+                <td>5671163</td>
+                <td>||</td>
+                <td>Beta</td>
+                <td>0.94</td>
+                <td>||</td>
+                <td>Book Value Per Share</td>
+                <td>877.99</td>
+                <td>||</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      <br>
+      <div class="card" id="panelcard">
+        <h5 class="card-header">MC Insights</h5>
+        <div class="card-body">
+          <h5 class="card-title" id="panelcardtitle">MC Overview</h5>
+          <p class="card-text">Reliance Industries has been a strong performer and is a stock withh good financial performance alongside good to expensive valuation. It has had a berished momentum yet a stable net profit of 10.8% for the past 3 years in CAGR.</p>
+          <a href="https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI" class="btn btn-outline-dark" target="_blank">Compare Live</a>
+        </div>
+      </div>      
+      </div>
+      <br><br>
+
+      <div class="row align-items-start" id="flipasian">Asian Paints Limited</div>
+      <div class="row align-items-start" id="panelasian">
+        <div class="col" style="font-size:25px; text-align:left">Overview</div>
+        <div class="col">
+          <table class="table table-light table-hover">
+            <tbody>
+              <tr>
+                <td>Open</td>
+                <td>2555.00</td>
+                <td>||</td>
+                <td>VWAP</td>
+                <td>2562.89</td>
+                <td>||</td>
+                <td>Face Value</td>
+                <td>1</td>
+                <td>||</td>
+                <td>P/B</td>
+                <td>23.24</td>
+              </tr>
+              <tr>
+                <td>Previous Close</td>
+                <td>2549.05</td>
+                <td>||</td>
+                <td>MKT Cap(Rs.Cr)</td>
+                <td>244753</td>
+                <td>||</td>
+                <td>TTM EPS</td>
+                <td>28.66</td>
+                <td>||</td>
+                <td>Dividend Yield</td>
+                <td>0.47</td>
+              </tr>
+              <tr>
+                <td>UC Limit</td>
+                <td>2803.95</td>
+                <td>||</td>
+                <td>20D Average Volume</td>
+                <td>1375651</td>
+                <td>||</td>
+                <td>TTM PE</td>
+                <td>89.03</td>
+                <td>||</td>
+                <td>P/C</td>
+                <td>69.34</td>
+              </tr>
+              <tr>
+                <td>LC Limit</td>
+                <td>2294.15</td>
+                <td>||</td>
+                <td>20D Average Delivery</td>
+                <td>522121</td>
+                <td>||</td>
+                <td>Sector PE</td>
+                <td>87.64</td>
+                <td>||</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Volume</td>
+                <td>1416102</td>
+                <td>||</td>
+                <td>Beta</td>
+                <td>0.67</td>
+                <td>||</td>
+                <td>Book Value Per Share</td>
+                <td>109.82</td>
+                <td>||</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <div class="card" id="panelcard">
+          <h5 class="card-header">MC Insights</h5>
+          <div class="card-body">
+            <h5 class="card-title" id="panelcardtitle">MC Overview</h5>
+            <p class="card-text">Asian Paints has had a good financial performance alongside good to expensive valuation but, it has had mid range momentum as the stock has been compared between mid to short range. Overall asian paints has had a net profit of 11.7% in the past 3 years as part of CAGR.</p>
+            <a href="https://www.moneycontrol.com/india/stockpricequote/paintsvarnishes/asianpaints/AP31" class="btn btn-outline-dark" target="_blank">Compare Live</a>
+          </div>
+        </div>      
+        </div>
+        <br><br>
+        
+    <div class="row align-items-start" id="fliptata">Tata Motors</div>
+      <div class="row align-items-start" id="paneltata">
+        <div class="col" style="font-size:25px; text-align:left">Overview</div>
+        <div class="col">
+          <table class="table table-light table-hover">
+            <tbody>
+              <tr>
+                <td>Open</td>
+                <td>303.00</td>
+                <td>||</td>
+                <td>VWAP</td>
+                <td>303.34</td>
+                <td>||</td>
+                <td>Face Value</td>
+                <td>2</td>
+                <td>||</td>
+                <td>P/B</td>
+                <td>1.60</td>
+              </tr>
+              <tr>
+                <td>Previous Close</td>
+                <td>301.25</td>
+                <td>||</td>
+                <td>MKT Cap(Rs.Cr)</td>
+                <td>100522</td>
+                <td>||</td>
+                <td>TTM EPS</td>
+                <td>--</td>
+                <td>||</td>
+                <td>Dividend Yield</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>UC Limit</td>
+                <td>331.35</td>
+                <td>||</td>
+                <td>20D Average Volume</td>
+                <td>56149081</td>
+                <td>||</td>
+                <td>TTM PE</td>
+                <td>--</td>
+                <td>||</td>
+                <td>P/C</td>
+                <td>17.68</td>
+              </tr>
+              <tr>
+                <td>LC Limit</td>
+                <td>271.15</td>
+                <td>||</td>
+                <td>20D Average Delivery</td>
+                <td>6877027</td>
+                <td>||</td>
+                <td>Sector PE</td>
+                <td>46.19</td>
+                <td>||</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Volume</td>
+                <td>41591323</td>
+                <td>||</td>
+                <td>Beta</td>
+                <td>1.59</td>
+                <td>||</td>
+                <td>Book Value Per Share</td>
+                <td>189.65</td>
+                <td>||</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <div class="card" id="panelcard">
+          <h5 class="card-header">MC Insights</h5>
+          <div class="card-body">
+            <h5 class="card-title" id="panelcardtitle">MC Overvie</h5>
+            <p class="card-text">Tata Motors has had a strong price momentum and technical indicators may tempt investors to buy the stocks. The stock has been medium compared to short range and the averages have been between meedium to long term. Overall tata motors have not had any net profit for the past 3 years as part of CAGR which indicates weak financials.</p>
+            <a href="https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03" class="btn btn-outline-dark" target="_blank">Compare Live</a>
+          </div>
+        </div>      
+        </div>
+        <br><br>
+        
+    <div class="row align-items-start" id="flipford">Ford Motors Limited</div>
+      <div class="row align-items-start" id="panelford">
+        <div class="col" style="font-size:25px; text-align:left">Overview</div>
+        <div class="col">
+          <table class="table table-light table-hover">
+            <tbody>
+              <tr>
+                <td>Previous Close</td>
+                <td>11.74</td>
+                <td>||</td>
+                <td>Open</td>
+                <td>11.65</td>
+                <td>||</td>
+                <td>Bid</td>
+                <td>11.75*28000</td>
+                <td>||</td>
+                <td>Ask</td>
+                <td>11.76*21500</td>
+              </tr>
+              <tr>
+                <td>Days Range</td>
+                <td>11.52 - 11.79</td>
+                <td>||</td>
+                <td>52 Week Range</td>
+                <td>4.52 - 13.62</td>
+                <td>||</td>
+                <td>Volume</td>
+                <td>11493189</td>
+                <td>||</td>
+                <td>Average Volume</td>
+                <td>66947819</td>
+              </tr>
+              <tr>
+                <td>MKT Cap</td>
+                <td>47.041B</td>
+                <td>||</td>
+                <td>Beta (5Y Monthly)</td>
+                <td>1.17</td>
+                <td>||</td>
+                <td>PE Ratio(TTM)</td>
+                <td>11.86</td>
+                <td>||</td>
+                <td>EPS(TTM)</td>
+                <td>0.99</td>
+              </tr>
+              <tr>
+                <td>Earnings Date</td>
+                <td>July 27, 2021 - August 1, 2021</td>
+                <td>||</td>
+                <td>Forward Dividend and Yield</td>
+                <td>N/A(N/A)</td>
+                <td>||</td>
+                <td>Dividend Date</td>
+                <td>Jan 28, 2020</td>
+                <td>||</td>
+                <td>1y Target Est</td>
+                <td>12.99</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <div class="card" id="panelcard">
+          <h5 class="card-header">MC Insights</h5>
+          <div class="card-body">
+            <h5 class="card-title" id="panelcardtitle">MC Overvie</h5>
+            <p class="card-text">The momentum of ford has been increasing but at a very slow rate. The stock has been medium compared to short range and the averages have been between meedium to long term. Overall ford motors have not had any net profit for the past 3 years as part of CAGR which indicates weak financials.</p>
+            <a href="https://finance.yahoo.com/quote/F" class="btn btn-outline-dark" target="_blank">Compare Live</a>
+          </div>
+        </div>      
+        </div>
+        <br><br>
+  
+      <div class="row align-items-start" id="flipccl">CCL Carnival Corp</div>
+      <div class="row align-items-start" id="panelccl">
+        <div class="col" style="font-size:25px; text-align:left">Overview</div>
+        <div class="col">
+          <table class="table table-light table-hover">
+            <tbody>
+              <tr>
+                <td>Previous Close</td>
+                <td>25.95</td>
+                <td>||</td>
+                <td>Open</td>
+                <td>25.99</td>
+                <td>||</td>
+                <td>Bid</td>
+                <td>26.56*2200</td>
+                <td>||</td>
+                <td>Ask</td>
+                <td>26.57*4000</td>
+              </tr>
+              <tr>
+                <td>Days Range</td>
+                <td>25.89 - 26.77</td>
+                <td>||</td>
+                <td>52 Week Range</td>
+                <td>11.00 - 30.63</td>
+                <td>||</td>
+                <td>Volume</td>
+                <td>7628456</td>
+                <td>||</td>
+                <td>Average Volume</td>
+                <td>40768198</td>
+              </tr>
+              <tr>
+                <td>MKT Cap</td>
+                <td>31.573B</td>
+                <td>||</td>
+                <td>Beta (5Y Monthly)</td>
+                <td>2.34</td>
+                <td>||</td>
+                <td>PE Ratio(TTM)</td>
+                <td>N/A</td>
+                <td>||</td>
+                <td>EPS(TTM)</td>
+                <td>-13.02</td>
+              </tr>
+              <tr>
+                <td>Earnings Date</td>
+                <td>July 7, 2021 - July 11, 2021</td>
+                <td>||</td>
+                <td>Forward Dividend and Yield</td>
+                <td>N/A(N/A)</td>
+                <td>||</td>
+                <td>Dividend Date</td>
+                <td>Feb 19, 2020</td>
+                <td>||</td>
+                <td>1y Target Est</td>
+                <td>27.36</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <div class="card" id="panelcard">
+          <h5 class="card-header">MC Insights</h5>
+          <div class="card-body">
+            <h5 class="card-title" id="panelcardtitle">MC Overvie</h5>
+            <p class="card-text">Carnival (NYSE: CCL), the largest cruise operator, has seen its stock rise by about 15% since the beginning of 2021, trading at levels of around $25 per share currently</p>
+            <a href="https://finance.yahoo.com/quote/CCL" class="btn btn-outline-dark" target="_blank">Compare Live</a>
+          </div>
+        </div>      
+        </div>
+        <br><br>
+  
+        <div class="row align-items-start" id="flipbajaj">Bajaj Finserve</div>
+      <div class="row align-items-start" id="panelbajaj">
+        <div class="col" style="font-size:25px; text-align:left">Overview</div>
+        <div class="col">
+          <table class="table table-light table-hover">
+            <tbody>
+              <tr>
+                <td>Open</td>
+                <td>11050.00</td>
+                <td>||</td>
+                <td>VWAP</td>
+                <td>11192.64</td>
+                <td>||</td>
+                <td>Face Value</td>
+                <td>5</td>
+                <td>||</td>
+                <td>P/B</td>
+                <td>5.04</td>
+              </tr>
+              <tr>
+                <td>Previous Close</td>
+                <td>11027.95</td>
+                <td>||</td>
+                <td>MKT Cap(Rs.Cr)</td>
+                <td>180118</td>
+                <td>||</td>
+                <td>TTM EPS</td>
+                <td>280.92</td>
+                <td>||</td>
+                <td>Dividend Yield</td>
+                <td>0.04</td>
+              </tr>
+              <tr>
+                <td>UC Limit</td>
+                <td>12130.70</td>
+                <td>||</td>
+                <td>20D Average Volume</td>
+                <td>596896</td>
+                <td>||</td>
+                <td>TTM PE</td>
+                <td>40.29</td>
+                <td>||</td>
+                <td>P/C</td>
+                <td>36.25</td>
+              </tr>
+              <tr>
+                <td>LC Limit</td>
+                <td>9925.20</td>
+                <td>||</td>
+                <td>20D Average Delivery</td>
+                <td>127424</td>
+                <td>||</td>
+                <td>Sector PE</td>
+                <td>48.92</td>
+                <td>||</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Volume</td>
+                <td>343443</td>
+                <td>||</td>
+                <td>Beta</td>
+                <td>1.50</td>
+                <td>||</td>
+                <td>Book Value Per Share</td>
+                <td>2247.85</td>
+                <td>||</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <div class="card" id="panelcard">
+          <h5 class="card-header">MC Insights</h5>
+          <div class="card-body">
+            <h5 class="card-title" id="panelcardtitle">MC Overview</h5>
+            <p class="card-text">      Bajaj Finserve has had a strong price momentum and technical indicators may tempt investors to buy the stocks. Bajaj Finserve has had a bulish momentum and has been above short medium and long term moving averages. It has indicated a net profit of 8.3% as part of CAGR for the past 3 years. This indicates weak financials.</p>
+            <a href="https://www.moneycontrol.com/india/stockpricequote/finance-investments/bajajholdingsinvestment/BHI" class="btn btn-outline-dark" target="_blank">Compare Live</a>
+          </div>
+        </div>      
+        </div>
+        <br><br>
+    
+        <!--===================================Pagination Starts ===================================-->
+      
+        <div class="pagination" id="pagi">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="./index4.html"><<</a></li>
+              <li class="page-item"><a class="page-link" href="./index.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="./index2.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="./index3.html">3</a></li>
+              <li class="page-item"><a class="page-link" href="./index4.html">4</a></li>
+              <li class="page-item"><a class="page-link" href="./index5.html">5</a></li>
+              <li class="page-item"><a class="page-link" href="./index6.html">6</a></li>
+              <li class="page-item"><a class="page-link" href="./index7.html">7</a></li>
+              <li class="page-item"><a class="page-link" href="./index8.html">8</a></li>
+              <li class="page-item"><a class="page-link" href="./index6.html">>></a></li>
+            </ul>
+          </nav>
+          </div>
+        
+      
+       <!--===================================Pagination Ends ===================================-->
+    
+       <!--==================================Footer Start=======================================-->
+       <footer class="footer-area">
+        <div class="container">
+            <div class="">
+                <div class="site-logo text-center py-4">
+                    <a href="./index.html"><img class="footerimg" src="./img/logo.png" alt="logo"></a>
+                </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">Follow us</h5>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="copyrights text-center">
+                    <p class="para">
+                        Copyright ©2021 All rights reserved | This template is made with by
+                        <a href="#"><span class="trademark">UStocks</span></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+      <!--==================================Footer Ends========================================-->
+  
+    <!--Bootstrap js file-->
+  <script src="./js/bootstrap.min.js""></script>
+    
+  <!--JQuery js file-->
+  <script src="./js/jquery3.6.0.js"></script>
+  
+  <!--Custom js file-->
+  <script src="./js/main.js"></script>
+  
+  </body>
+       
+  <!--================================Body Ends========================================-->
+  
+  
+  </html>
